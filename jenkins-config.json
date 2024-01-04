@@ -1,0 +1,14 @@
+{
+  "project": "JenkinsTestProject",
+  "repository": "https://github.com/yourusername/your-repo.git",
+  "build": {
+    "script": "echo 'Hello, Jenkins! This is a test build.'",
+    "options": {
+      "clean": true
+    }
+  },
+  "test": {
+    "script": "echo 'Running tests...'",
+    "coverage": false
+  }
+}
